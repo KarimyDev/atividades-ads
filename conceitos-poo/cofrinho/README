@@ -1,1 +1,45 @@
+# Cofrinho – Conceitos de POO em Java
 
+Projeto desenvolvido em **Java** como parte das atividades práticas da disciplina de **Programação Orientada a Objetos (POO)**.
+
+O sistema simula o funcionamento de um **cofrinho de moedas**, permitindo armazenar diferentes tipos de moedas e aplicar conceitos fundamentais de orientação a objetos.
+
+## 🎯 Objetivo do Projeto
+
+Aplicar na prática os principais conceitos de **POO**, especialmente:
+
+- Herança  
+- Polimorfismo  
+- Classes abstratas  
+- Encapsulamento  
+- Coleções (ArrayList)
+
+## ⚙️ Funcionalidades
+
+O sistema permite ao usuário:
+
+- Adicionar moedas ao cofrinho  
+- Remover moedas específicas  
+- Listar moedas armazenadas  
+- Calcular o valor total convertido para Real (R$)
+
+## 🛠️ Tecnologias Utilizadas
+
+- Java  
+- Programação Orientada a Objetos  
+- Estrutura de dados (ArrayList)
+
+## 🧩 Conceitos Aplicados
+
+- Classe abstrata para representação de moedas  
+- Classes filhas (Real, Dólar, Euro, etc.)  
+- Uso de polimorfismo para cálculo de conversão  
+- Organização em múltiplas classes
+
+## 📚 Contexto Acadêmico
+
+Projeto desenvolvido como exercício prático da disciplina de **POO**, com foco na modelagem de objetos e boas práticas de desenvolvimento.
+
+## 📌 Observação
+
+Este projeto tem finalidade educacional e foi criado para fins de estudo e prática em Java.
