@@ -1,1 +1,69 @@
+# Sistema de Estoque de Computadores
 
+Projeto desenvolvido em **Java** como parte das atividades da disciplina de **Programação Orientada a Objetos (POO)**.
+
+O sistema simula um controle de estoque de computadores, permitindo cadastrar, remover e listar diferentes tipos de máquinas.
+
+## 🎯 Objetivo do Projeto
+
+Aplicar na prática conceitos fundamentais de **POO**, incluindo:
+
+- Classes abstratas  
+- Herança  
+- Polimorfismo  
+- Encapsulamento  
+- Sobrescrita de métodos  
+
+## ⚙️ Funcionalidades
+
+O sistema possui um menu interativo no console que permite:
+
+- Adicionar computadores ao estoque  
+- Remover computadores do estoque  
+- Listar computadores cadastrados  
+
+## 🖥️ Tipos de Computadores
+
+O projeto utiliza uma classe abstrata `Computador`, que representa características comuns:
+
+- Quantidade de memória (GB)  
+- Número de processadores  
+
+As classes filhas implementam comportamentos específicos:
+
+- `Desktop` → inclui valor de acessórios  
+- `Notebook` → inclui tamanho da tela  
+
+Cada tipo possui sua própria regra de cálculo de valor.
+
+## 💰 Cálculo de Valor
+
+O valor dos computadores é calculado de forma polimórfica através do método:
+
+`calculaValor()`
+
+Cada classe implementa sua própria lógica de cálculo.
+
+## 🛠️ Tecnologias Utilizadas
+
+- Java  
+- Programação Orientada a Objetos  
+- ArrayList  
+
+## 🧩 Conceitos Aplicados
+
+- Classe abstrata (`Computador`)  
+- Herança (`Desktop` / `Notebook`)  
+- Polimorfismo  
+- Sobrescrita de métodos (`calculaValor`, `toString`)  
+- Implementação de `equals()` e `hashCode()`  
+- Estrutura de dados (`ArrayList`)  
+- Entrada de dados via `Scanner`
+
+## 📚 Contexto Acadêmico
+
+Projeto desenvolvido para fins educacionais durante o aprendizado de Programação Orientada a Objetos.
+
+## 📌 Observação
+
+Este projeto tem finalidade educacional e foi criado para estudo e prática em Java.
