@@ -1,1 +1,19 @@
+# SQL – Atividades ADS
 
+Esta pasta contém scripts e exercícios em **SQL** realizados como parte das atividades da faculdade (Análise e Desenvolvimento de Sistemas).
+
+Os arquivos SQL foram desenvolvidos para praticar conceitos fundamentais de banco de dados, consultas e manipulação de informações em sistemas relacionais.
+
+## 🛠️ Conteúdos Trabalhados
+
+- Criação de tabelas (CREATE TABLE)  
+- Inserção de dados (INSERT)  
+- Consultas básicas (SELECT)  
+- Filtros e condições (WHERE)  
+- Ordenação e agrupamento (ORDER BY, GROUP BY)  
+- Junções (JOIN)  
+- Atualização e exclusão de dados (UPDATE, DELETE)
+
+## 📁 Organização da Pasta
+
+Cada arquivo SQL contém um exercício ou script relacionado ao conteúdo estudado em aula ou em atividades práticas da faculdade.
