@@ -22,5 +22,3 @@ O projeto foi feito sem frameworks, conforme solicitado no enunciado.
 - Formação
 - Portfólio
 - Contato
-
-O link publicado deve abrir o site diretamente no navegador e não pode conter `localhost` ou `127.0.0.1`.
