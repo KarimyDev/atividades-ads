@@ -1,10 +1,23 @@
-# Atividades da Faculdade
+# Portfólio pessoal - Karimy Carvalho Alves
 
-Repositório com atividades e exercícios desenvolvidos durante o curso de Análise e Desenvolvimento de Sistemas.
+Projeto desenvolvido para a atividade prática de Fundamentos da Programação Web.
 
-## Conteúdo
-- Exercícios acadêmicos
-- Atividades práticas
-- Estudos relacionados ao curso
+## Tecnologias usadas
 
-Repositório voltado para organização dos estudos.
+- HTML5
+- CSS3
+- JavaScript
+
+## Estrutura
+
+- `index.html`: estrutura principal do portfólio
+- `estilo.css`: estilos, responsividade e tema claro/escuro
+- `script.js`: menu responsivo, troca de tema e validação do formulário
+
+## Seções
+
+- Sobre mim
+- Experiência
+- Formação
+- Portfólio
+- Contato
