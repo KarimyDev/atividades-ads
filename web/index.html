@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Karimy Carvalho Alves | Portfólio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <header class="cabecalho">
+    <nav class="navegacao" aria-label="Menu principal">
+      <a class="marca" href="#sobre" aria-label="Ir para o início">
+        <span>Karimy</span>
+        <strong>QA & Desenvolvimento</strong>
+      </a>
+
+      <button class="botao-menu" type="button" aria-expanded="false" aria-controls="menu-principal">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="links-menu" id="menu-principal">
+        <a href="#sobre">Sobre mim</a>
+        <a href="#formacao">Formação</a>
+        <a href="#portfolio">Portfólio</a>
+        <a href="#contato">Contato</a>
+        <button class="botao-tema" type="button">Tema escuro</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero secao" id="sobre">
+      <div class="hero-conteudo">
+        <p class="etiqueta">Portfólio pessoal</p>
+        <h1>Karimy Carvalho Alves</h1>
+        <p class="texto-destaque">
+          Estudante de Análise e Desenvolvimento de Sistemas, atuando como QA e construindo
+          uma trajetória guiada por qualidade, atenção aos detalhes e melhoria contínua.
+        </p>
+        <div class="acoes-hero">
+          <a class="botao primario" href="#portfolio">Ver projetos</a>
+          <a class="botao secundario" href="https://github.com/KarimyDev" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+
+      <aside class="cartao-perfil" aria-label="Resumo profissional">
+        <span class="status">Disponível para aprender e contribuir</span>
+        <h2>QA com olhar de produto</h2>
+        <p>
+          Minha experiência em testes, documentação técnica e Customer Success me ajuda a
+          enxergar tecnologia com foco no usuário, no negócio e na qualidade da entrega.
+        </p>
+      </aside>
+    </section>
+
+    <section class="secao bloco-sobre" aria-labelledby="titulo-sobre-detalhes">
+      <div>
+        <p class="etiqueta">Sobre mim</p>
+        <h2 id="titulo-sobre-detalhes">Gosto de entender o problema antes de sair resolvendo.</h2>
+      </div>
+      <div class="texto-coluna">
+        <p>
+          Atuo na área de qualidade de software, com experiência em testes manuais de API,
+          automação de testes e validação de documentação técnica. Essa vivência fortaleceu
+          meu perfil analítico, minha organização e minha atenção aos detalhes.
+        </p>
+        <p>
+          Antes da área técnica, também passei por Customer Success e gestão operacional.
+          Essa combinação me tornou uma profissional que conversa bem com pessoas, entende
+          processos e busca soluções que façam sentido na prática.
+        </p>
+      </div>
+    </section>
+
+    <section class="secao formacao" id="formacao">
+      <div class="cabecalho-secao">
+        <p class="etiqueta">Formação</p>
+        <h2>Conhecimento técnico em evolução constante</h2>
+      </div>
+
+      <div class="grade-formacao">
+        <article class="cartao">
+          <span class="numero">01</span>
+          <h3>Análise e Desenvolvimento de Sistemas</h3>
+          <p>
+            Formação voltada para programação, banco de dados, desenvolvimento web,
+            lógica computacional e práticas de construção de sistemas.
+          </p>
+        </article>
+
+        <article class="cartao">
+          <span class="numero">02</span>
+          <h3>Qualidade de Software</h3>
+          <p>
+            Experiência prática com testes manuais de API, automação de testes,
+            validação de documentação técnica e análise de comportamento de sistemas.
+          </p>
+        </article>
+
+        <article class="cartao">
+          <span class="numero">03</span>
+          <h3>Comunicação e operação</h3>
+          <p>
+            Vivência em Customer Success e gestão operacional, desenvolvendo visão de
+            negócio, organização, atendimento e acompanhamento de processos.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="secao portfolio" id="portfolio">
+      <div class="cabecalho-secao">
+        <p class="etiqueta">Portfólio</p>
+        <h2>Projetos e experiências que representam meu momento atual</h2>
+      </div>
+
+      <div class="lista-projetos">
+        <article class="projeto">
+          <div>
+            <span class="tag">GitHub</span>
+            <h3>Repositórios de estudo e desenvolvimento</h3>
+          </div>
+          <p>
+            Espaço onde organizo códigos, exercícios e projetos acadêmicos enquanto
+            evoluo na área de desenvolvimento web e qualidade de software.
+          </p>
+          <a href="https://github.com/KarimyDev" target="_blank" rel="noopener">Acessar GitHub</a>
+        </article>
+
+        <article class="projeto">
+          <div>
+            <span class="tag">QA</span>
+            <h3>Validação de APIs e documentação técnica</h3>
+          </div>
+          <p>
+            Experiência com leitura de requisitos, execução de cenários de teste,
+            identificação de inconsistências e comunicação clara dos resultados.
+          </p>
+          <a href="#contato">Conversar sobre qualidade</a>
+        </article>
+
+        <article class="projeto">
+          <div>
+            <span class="tag">Web</span>
+            <h3>Portfólio pessoal em HTML, CSS e JavaScript</h3>
+          </div>
+          <p>
+            Este próprio site foi criado sem frameworks, usando estrutura semântica,
+            responsividade, validação de formulário e alternância de tema.
+          </p>
+          <a href="#sobre">Ver apresentação</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="secao contato" id="contato">
+      <div class="contato-texto">
+        <p class="etiqueta">Contato</p>
+        <h2>Vamos conversar?</h2>
+        <p>
+          Use o formulário para simular o envio de uma mensagem. Os campos são validados
+          com JavaScript antes da confirmação.
+        </p>
+      </div>
+
+      <form class="formulario" id="formulario-contato" novalidate>
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+        <small class="erro" id="erro-nome"></small>
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com">
+        <small class="erro" id="erro-email"></small>
+
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem"></textarea>
+        <small class="erro" id="erro-mensagem"></small>
+
+        <button class="botao primario" type="submit">Enviar mensagem</button>
+        <p class="confirmacao" id="confirmacao" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <p>Karimy Carvalho Alves - RU 5562007</p>
+    <a href="https://github.com/KarimyDev" target="_blank" rel="noopener">github.com/KarimyDev</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
